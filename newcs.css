@@ -1,0 +1,174 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  background-color: #f2f3f8;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #34495e;
+}
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #34495e;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+p {
+  margin: 0 0 10px;
+  color: #34495e;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container {
+    width: 1170px;
+  }
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.col-md-6,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ 
+ .col-md-6,
+ .col-md-12 {
+    float: left;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+.jumbotron {
+  padding: 10px;
+  color: #fff;
+  background-color: #34495e;
+  height: 500px;
+}
+.jumbotron hr {
+  width: 1000px;
+  margin: 5px auto;
+  border-color: #eee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+  font-size: 56px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.jumbotron h2,
+.jumbotron .h2 {
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: inherit;
+}
+
+.section {
+  font-size: 56px;
+  text-align: center;
+  margin-top: 35px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #34495e;
+  text-transform: capitalize;
+}
+.section hr {
+  width: 110px;
+  height: 20px;
+}
+.work-together {
+  height: 260px;
+  background-color: #34495e;
+  padding-top: 40px;
+}
+.work-together h3,
+.work-together label {
+  color: #fff;
+  padding-left:45.5%;
+}
+.well {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.spacer {
+  clear: both;
+  height: 15px;
+}
